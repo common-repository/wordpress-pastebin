@@ -1,0 +1,392 @@
+# German translations for PACKAGE package
+# German messages for PACKAGE.
+# Copyright (C) 2010 Nicolas Kuttler
+# This file is distributed under the same license as the PACKAGE package.
+# Nicolas Kuttler <wp@nicolaskuttler.de>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress Pastebin 0.0.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/wordpress-pastebin\n"
+"POT-Creation-Date: 2010-10-18 15:01+0200\n"
+"PO-Revision-Date: 2010-10-01 20:39+0200\n"
+"Last-Translator: Nicolas Kuttler <wp@nicolaskuttler.de>\n"
+"Language-Team: German\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. #-#-#-#-#  wordpress-pastebin.pot (WordPress Pastebin 0.4.3)  #-#-#-#-#
+#. Plugin Name of an extension
+#: inc/admin.php:305 inc/admin.php:565
+msgid "WordPress Pastebin"
+msgstr ""
+
+#: inc/admin.php:407
+msgid "Pick language"
+msgstr "Programmiersprache auswählen"
+
+#: inc/admin.php:415
+msgid "Paste your code"
+msgstr "Füge deinen Code ein"
+
+#: inc/admin.php:424
+msgid "Add a note"
+msgstr "Füge eine Notiz hinzu"
+
+#: inc/admin.php:475
+msgid "Highlight:"
+msgstr "Sprache:"
+
+#: inc/admin.php:567
+msgid "With this plugin you can turn your blog into a pastebin."
+msgstr "Mit diesem plugin kannst du eine 'pastebin' auf deinem Blog betreiben."
+
+#: inc/admin.php:569
+msgid "General Settings"
+msgstr "Allgemeine Einstellungen"
+
+#: inc/admin.php:574
+msgid "Use short permalinks"
+msgstr "Kurze Permalinks benutzen"
+
+#: inc/admin.php:576
+msgid ""
+"The alternative is to build the URI from the paste's title like for normal "
+"posts."
+msgstr "Alternativ wird der Permalink in abhängig vom Titel erstellt."
+
+#: inc/admin.php:579
+msgid "Default language"
+msgstr "Standard Programmiersprache"
+
+#: inc/admin.php:582
+msgid "Pick a default programming language."
+msgstr "Wähle eine Standard-Programmiersprache"
+
+#: inc/admin.php:585
+msgid "Default highlighter"
+msgstr "Standard Hervorhebung"
+
+#: inc/admin.php:588
+msgid "Pick a default syntax highlighting plugin."
+msgstr "Standard-Plugin für Hervorhebungen"
+
+#: inc/admin.php:591
+msgid "Paste features"
+msgstr "Paste Eigenschaften"
+
+#: inc/admin.php:594
+msgid "Notes"
+msgstr "Notizen"
+
+#: inc/admin.php:596
+msgid "Notes allow you to add a little content above the paste."
+msgstr ""
+"Mit Notizen kannst Du ein bisschen Inhalt über den pastes anzeigen lassen."
+
+#: inc/admin.php:599
+msgid "Titles"
+msgstr "Titel"
+
+#: inc/admin.php:601
+#, php-format
+msgid ""
+"You want to build a <a href=\"%s\">custom template</a> for the paste custom "
+"post type if you disable titles. If you show the pastes anywhere on your "
+"site or in your feed you'll have to fix the display of that well."
+msgstr ""
+"Wenn Du dies deaktivierst solltest Du unbedingt ein <a href=\"%s\">eigenes "
+"Template</a> für den Paste-Artikeltyp erstellen. Wenn Du die pastes noch "
+"woanders auf Deiner Seite anzeigst, im RSS Feed z.B., musst Du die Ausgabe "
+"dort auch anpassen."
+
+#: inc/admin.php:604
+msgid "Comments"
+msgstr "Kommentare"
+
+#: inc/admin.php:606
+msgid "Enable comments for the pastes."
+msgstr "Aktiviere Kommentare für pastes"
+
+#: inc/admin.php:609
+msgid "Auto-Tag"
+msgstr "Automatisches Schlagwort"
+
+#: inc/admin.php:611
+msgid "Automatically tag new pastes with the highlight language."
+msgstr ""
+"Füge neuen pastes automatisch deren Programmiersprache als Schlagwort. "
+"hinzu."
+
+#: inc/admin.php:614
+msgid "Categories"
+msgstr "Kategorien"
+
+#: inc/admin.php:616
+msgid "Enable categories for the pastes."
+msgstr "Aktiviere Kategorien für die pastes"
+
+#: inc/admin.php:619
+msgid "Tags"
+msgstr "Schlagworte"
+
+#: inc/admin.php:621
+msgid "Enable tags for the pastes."
+msgstr "Aktiviere Schlagworte für die pastes"
+
+#: inc/admin.php:629
+msgid "Auto-category"
+msgstr "Automatische Kategorie"
+
+#: inc/admin.php:632
+msgid "Pick a post category to put your new pastes into automatically"
+msgstr "Wähle eine Kategorie aus, die neue pastes automatisch bekommen sollen"
+
+#: inc/admin.php:635
+msgid "Frontend editing"
+msgstr ""
+
+#: inc/admin.php:637
+msgid "Show the edit form on the frontend"
+msgstr "Das Formular zum Bearbeiten auf dem Blog anzeigen"
+
+#: inc/admin.php:640
+msgid "Anonymous pasting"
+msgstr "Anonymes pasten"
+
+#: inc/admin.php:642
+msgid ""
+"Allow anybody to publish pastes, use the shortcode <code>[wordpress-pastebin]"
+"</code> to show the form."
+msgstr ""
+"Jeder kann auf Deiner Seite pasten. Benutze den shortcode <code>[wordpress-"
+"pastebin]</code> um das Formular anzuzeigen."
+
+#: inc/admin.php:645
+msgid "Visibility settings"
+msgstr "Sichtarkeit"
+
+#: inc/admin.php:648
+msgid "Show pastes in your main feed"
+msgstr "Die Pastes im RSS feed anzeigen"
+
+#: inc/admin.php:652
+msgid "Show pastes on main blog page"
+msgstr "Pastes auf der Blog-Seite anzeigen"
+
+#: inc/admin.php:656
+msgid "Thank the plugin author"
+msgstr "Danke dem Autor des Plugins"
+
+#: inc/admin.php:658
+msgid ""
+"Please support this plugin by allowing a link to it's home page below your "
+"pastes."
+msgstr ""
+"Bitte unterstütze dieses plugin durch einen Verweise auf seine Seite unter "
+"den Code-Beispielen."
+
+#: inc/admin.php:661
+msgid "Style the thanks link"
+msgstr "Den Link stylen"
+
+#: inc/admin.php:666
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+#: inc/frontend.php:121 inc/frontend.php:142
+msgid "Security check"
+msgstr "Sicherheitscheck"
+
+#: inc/frontend.php:212
+msgid "Create paste"
+msgstr "Neues Paste"
+
+#: inc/frontend.php:240
+msgid "Update paste"
+msgstr "Paste aktualisieren"
+
+#: inc/frontend.php:306
+msgid "WordPress Pastebin plugin"
+msgstr ""
+
+#: inc/nkuttler.php:26
+msgid "Do you like this plugin?"
+msgstr "Gefällt Dir dieses plugin?"
+
+#: inc/nkuttler.php:34
+#, php-format
+msgid "<a href=\"%s\">Rate</a> it"
+msgstr "<a href=\"%s\">Bewerte es</a>"
+
+#: inc/nkuttler.php:37
+#, php-format
+msgid "<a href=\"%s\">Visit</a> it's homepage"
+msgstr "<a href=\"%s\">Besuch seine Webseite</a>"
+
+#: inc/nkuttler.php:40
+#, php-format
+msgid "<a href=\"%s\">Subscribe</a> the feed"
+msgstr "<a href=\"%s\">Abonniere den feed</a>"
+
+#: inc/nkuttler.php:43
+#, php-format
+msgid "<a href=\"%s\">Donate</a>!"
+msgstr "<a href=\"%s\">Spende</a>!"
+
+#: inc/nkuttler.php:46
+msgid "About the author"
+msgstr "Über den Autor"
+
+#: inc/nkuttler.php:49
+#, php-format
+msgid "My <a href=\"%s\">blog</a>"
+msgstr "Mein <a href=\"%s\">Blog</a>"
+
+#: inc/nkuttler.php:52
+#, php-format
+msgid "Subscribe via <a href=\"%s\">RSS</a> or <a href=\"%s\">email</a>"
+msgstr "Abonnieren via <a href=\"%s\">RSS</a> or <a href=\"%s\">e-Mail</a>"
+
+#: inc/nkuttler.php:56
+msgid "My other plugins"
+msgstr "Meine anderen plugins"
+
+#: inc/nkuttler.php:57
+msgid "<a href=\"http://www.nkuttler.de\">Translated by Nicolas</a>"
+msgstr "<a href=\"http://www.nicolaskuttler.de\">Übersetzt von Nicolas</a>"
+
+#: inc/widget-recent.php:12
+msgid "List your recent pastes"
+msgstr "Die aktuellsten Pastes anzeigen"
+
+#: inc/widget-recent.php:19
+msgid "WP Pastebin Recent"
+msgstr "WP Pastebin Aktuell"
+
+#: inc/widget-recent.php:49
+msgid "Recent Pastes"
+msgstr "Aktuelle Pastes"
+
+#: inc/widget-recent.php:58
+msgid "Title:"
+msgstr "Titel:"
+
+#: inc/widget-recent.php:66
+msgid "Show how many pastes:"
+msgstr "So viele Pastes anzeigen:"
+
+#: inc/widget-recent.php:87
+msgid "No pastes found"
+msgstr "Kein Pastes gefunden"
+
+#: wordpress-pastebin.php:117
+#, php-format
+msgid ""
+"WordPress Pastebin has been automatically deactivated because of the "
+"following error: <strong>%s</strong>."
+msgstr ""
+"WordPress Pastebin wurde mit folgender Fehlermeldung automatisch "
+"deaktiviert: <strong>%s</strong>."
+
+#: wordpress-pastebin.php:163
+msgid ""
+"The post type %s already exists. Please see the readme.txt for information "
+"on how to rename it."
+msgstr ""
+"Der Artikeltyp %s existiert bereits. Bitte lies die readme.txt für Anweisungen "
+"wie dies behoben werden kann."
+
+#: wordpress-pastebin.php:180
+msgid "Pastes"
+msgstr ""
+
+#: wordpress-pastebin.php:181
+msgid "Paste"
+msgstr ""
+
+#: wordpress-pastebin.php:182
+msgid "Add New Paste"
+msgstr "Neues Paste"
+
+#: wordpress-pastebin.php:183
+msgid "Edit paste"
+msgstr "Paste bearbeiten"
+
+#: wordpress-pastebin.php:184
+msgid "New paste"
+msgstr "Neues Paste"
+
+#: wordpress-pastebin.php:185
+msgid "View paste"
+msgstr "Paste ansehen"
+
+#: wordpress-pastebin.php:186
+msgid "Search pastes"
+msgstr "Pastes durchsuchen"
+
+#: wordpress-pastebin.php:187
+msgid "No paste found"
+msgstr "Kein Pastes gefunden"
+
+#: wordpress-pastebin.php:188
+msgid "Nothing found in trash"
+msgstr "Kein Pastes im Papierkorb gefunden"
+
+#. Plugin URI of an extension
+msgid "http://www.nkuttler.de/wordpress/wordpress-pastebin/"
+msgstr ""
+
+#. Description of an extension
+msgid "Use your own blog for your own code pastes!"
+msgstr "Benutz Dein eigenes blog als 'pastebin'"
+
+#. Author of an extension
+msgid "Nicolas Kuttler"
+msgstr ""
+
+#. Author URI of an extension
+msgid "http://www.nkuttler.de/"
+msgstr ""
+
+#~ msgid ""
+#~ "The taxonomy paste_tag already exists. Please deactivate other paste "
+#~ "plugins or duplicate copies of this plugin."
+#~ msgstr ""
+#~ "Die Taxonomie paste_tag existiert bereits. Bitte deaktiviere andere paste "
+#~ "plugins oder deaktiviere andere versionen dieses plugins."
+
+#~ msgid "Paste Tags"
+#~ msgstr "Paste Schlagwort"
+
+#~ msgid "Paste Tag"
+#~ msgstr "Paste Schlagwort bearbeiten"
+
+#~ msgid "Search Paste Tags"
+#~ msgstr "Paste Schlagworte durchsuchen"
+
+#~ msgid "Popular Paste Tags"
+#~ msgstr "Beliebte Paste Schlagworte"
+
+#~ msgid "All Paste Tags"
+#~ msgstr "Alle Paste Schlagworte"
+
+#~ msgid "Edit Paste Tag"
+#~ msgstr "Paste Schlagwort bearbeiten"
+
+#~ msgid "Add New Paste Tag"
+#~ msgstr "Neues Paste Schlagwort"
+
+#~ msgid "New Paste Tag Name"
+#~ msgstr "Name für neues Paste Schlagwort"
+
+#~ msgid "Separate Paste Tags with commas"
+#~ msgstr "Trenne Paste Schlagworte mit Komma"
+
+#~ msgid "Add or remove Paste Tags"
+#~ msgstr "Paste Schlagworte hinzufügen oder entfernen"
+
+#~ msgid "Choose from the most used Paste Tags"
+#~ msgstr "Wähle aus den beliebtesten Paste Schlagworten"

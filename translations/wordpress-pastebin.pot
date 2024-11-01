@@ -1,0 +1,337 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Nicolas Kuttler
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress Pastebin 0.4.3\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/wordpress-pastebin\n"
+"POT-Creation-Date: 2010-10-18 15:01+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. #-#-#-#-#  wordpress-pastebin.pot (WordPress Pastebin 0.4.3)  #-#-#-#-#
+#. Plugin Name of an extension
+#: inc/admin.php:305 inc/admin.php:565
+msgid "WordPress Pastebin"
+msgstr ""
+
+#: inc/admin.php:407
+msgid "Pick language"
+msgstr ""
+
+#: inc/admin.php:415
+msgid "Paste your code"
+msgstr ""
+
+#: inc/admin.php:424
+msgid "Add a note"
+msgstr ""
+
+#: inc/admin.php:475
+msgid "Highlight:"
+msgstr ""
+
+#: inc/admin.php:567
+msgid "With this plugin you can turn your blog into a pastebin."
+msgstr ""
+
+#: inc/admin.php:569
+msgid "General Settings"
+msgstr ""
+
+#: inc/admin.php:574
+msgid "Use short permalinks"
+msgstr ""
+
+#: inc/admin.php:576
+msgid ""
+"The alternative is to build the URI from the paste's title like for normal "
+"posts."
+msgstr ""
+
+#: inc/admin.php:579
+msgid "Default language"
+msgstr ""
+
+#: inc/admin.php:582
+msgid "Pick a default programming language."
+msgstr ""
+
+#: inc/admin.php:585
+msgid "Default highlighter"
+msgstr ""
+
+#: inc/admin.php:588
+msgid "Pick a default syntax highlighting plugin."
+msgstr ""
+
+#: inc/admin.php:591
+msgid "Paste features"
+msgstr ""
+
+#: inc/admin.php:594
+msgid "Notes"
+msgstr ""
+
+#: inc/admin.php:596
+msgid "Notes allow you to add a little content above the paste."
+msgstr ""
+
+#: inc/admin.php:599
+msgid "Titles"
+msgstr ""
+
+#: inc/admin.php:601
+#, php-format
+msgid ""
+"You want to build a <a href=\"%s\">custom template</a> for the paste custom "
+"post type if you disable titles. If you show the pastes anywhere on your "
+"site or in your feed you'll have to fix the display of that well."
+msgstr ""
+
+#: inc/admin.php:604
+msgid "Comments"
+msgstr ""
+
+#: inc/admin.php:606
+msgid "Enable comments for the pastes."
+msgstr ""
+
+#: inc/admin.php:609
+msgid "Auto-Tag"
+msgstr ""
+
+#: inc/admin.php:611
+msgid "Automatically tag new pastes with the highlight language."
+msgstr ""
+
+#: inc/admin.php:614
+msgid "Categories"
+msgstr ""
+
+#: inc/admin.php:616
+msgid "Enable categories for the pastes."
+msgstr ""
+
+#: inc/admin.php:619
+msgid "Tags"
+msgstr ""
+
+#: inc/admin.php:621
+msgid "Enable tags for the pastes."
+msgstr ""
+
+#: inc/admin.php:629
+msgid "Auto-category"
+msgstr ""
+
+#: inc/admin.php:632
+msgid "Pick a post category to put your new pastes into automatically"
+msgstr ""
+
+#: inc/admin.php:635
+msgid "Frontend editing"
+msgstr ""
+
+#: inc/admin.php:637
+msgid "Show the edit form on the frontend"
+msgstr ""
+
+#: inc/admin.php:640
+msgid "Anonymous pasting"
+msgstr ""
+
+#: inc/admin.php:642
+msgid ""
+"Allow anybody to publish pastes, use the shortcode <code>[wordpress-pastebin]"
+"</code> to show the form."
+msgstr ""
+
+#: inc/admin.php:645
+msgid "Visibility settings"
+msgstr ""
+
+#: inc/admin.php:648
+msgid "Show pastes in your main feed"
+msgstr ""
+
+#: inc/admin.php:652
+msgid "Show pastes on main blog page"
+msgstr ""
+
+#: inc/admin.php:656
+msgid "Thank the plugin author"
+msgstr ""
+
+#: inc/admin.php:658
+msgid ""
+"Please support this plugin by allowing a link to it's home page below your "
+"pastes."
+msgstr ""
+
+#: inc/admin.php:661
+msgid "Style the thanks link"
+msgstr ""
+
+#: inc/admin.php:666
+msgid "Save Changes"
+msgstr ""
+
+#: inc/frontend.php:121 inc/frontend.php:142
+msgid "Security check"
+msgstr ""
+
+#: inc/frontend.php:212
+msgid "Create paste"
+msgstr ""
+
+#: inc/frontend.php:240
+msgid "Update paste"
+msgstr ""
+
+#: inc/frontend.php:306
+msgid "WordPress Pastebin plugin"
+msgstr ""
+
+#: inc/nkuttler.php:26
+msgid "Do you like this plugin?"
+msgstr ""
+
+#: inc/nkuttler.php:34
+#, php-format
+msgid "<a href=\"%s\">Rate</a> it"
+msgstr ""
+
+#: inc/nkuttler.php:37
+#, php-format
+msgid "<a href=\"%s\">Visit</a> it's homepage"
+msgstr ""
+
+#: inc/nkuttler.php:40
+#, php-format
+msgid "<a href=\"%s\">Subscribe</a> the feed"
+msgstr ""
+
+#: inc/nkuttler.php:43
+#, php-format
+msgid "<a href=\"%s\">Donate</a>!"
+msgstr ""
+
+#: inc/nkuttler.php:46
+msgid "About the author"
+msgstr ""
+
+#: inc/nkuttler.php:49
+#, php-format
+msgid "My <a href=\"%s\">blog</a>"
+msgstr ""
+
+#: inc/nkuttler.php:52
+#, php-format
+msgid "Subscribe via <a href=\"%s\">RSS</a> or <a href=\"%s\">email</a>"
+msgstr ""
+
+#: inc/nkuttler.php:56
+msgid "My other plugins"
+msgstr ""
+
+#: inc/nkuttler.php:57
+msgid "<a href=\"http://www.nkuttler.de\">Translated by Nicolas</a>"
+msgstr ""
+
+#: inc/widget-recent.php:12
+msgid "List your recent pastes"
+msgstr ""
+
+#: inc/widget-recent.php:19
+msgid "WP Pastebin Recent"
+msgstr ""
+
+#: inc/widget-recent.php:49
+msgid "Recent Pastes"
+msgstr ""
+
+#: inc/widget-recent.php:58
+msgid "Title:"
+msgstr ""
+
+#: inc/widget-recent.php:66
+msgid "Show how many pastes:"
+msgstr ""
+
+#: inc/widget-recent.php:87
+msgid "No pastes found"
+msgstr ""
+
+#: wordpress-pastebin.php:117
+#, php-format
+msgid ""
+"WordPress Pastebin has been automatically deactivated because of the "
+"following error: <strong>%s</strong>."
+msgstr ""
+
+#: wordpress-pastebin.php:163
+#, php-format
+msgid ""
+"The post type %s already exists. Please see the readme.txt for information "
+"on how to rename it."
+msgstr ""
+
+#: wordpress-pastebin.php:180
+msgid "Pastes"
+msgstr ""
+
+#: wordpress-pastebin.php:181
+msgid "Paste"
+msgstr ""
+
+#: wordpress-pastebin.php:182
+msgid "Add New Paste"
+msgstr ""
+
+#: wordpress-pastebin.php:183
+msgid "Edit paste"
+msgstr ""
+
+#: wordpress-pastebin.php:184
+msgid "New paste"
+msgstr ""
+
+#: wordpress-pastebin.php:185
+msgid "View paste"
+msgstr ""
+
+#: wordpress-pastebin.php:186
+msgid "Search pastes"
+msgstr ""
+
+#: wordpress-pastebin.php:187
+msgid "No paste found"
+msgstr ""
+
+#: wordpress-pastebin.php:188
+msgid "Nothing found in trash"
+msgstr ""
+
+#. Plugin URI of an extension
+msgid "http://www.nkuttler.de/wordpress/wordpress-pastebin/"
+msgstr ""
+
+#. Description of an extension
+msgid "Use your own blog for your own code pastes!"
+msgstr ""
+
+#. Author of an extension
+msgid "Nicolas Kuttler"
+msgstr ""
+
+#. Author URI of an extension
+msgid "http://www.nkuttler.de/"
+msgstr ""
